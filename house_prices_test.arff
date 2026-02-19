@@ -1,0 +1,7 @@
+@relation test_house
+
+@attribute size numeric
+@attribute price numeric
+
+@data
+110,?
