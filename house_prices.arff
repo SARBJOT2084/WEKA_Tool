@@ -1,13 +1,21 @@
-@relation house_prices
+@relation students
 
-@attribute size numeric
-@attribute price numeric
+@attribute StudentID numeric
+@attribute StudyHours numeric
+@attribute Attendance numeric
+@attribute AssignmentScore numeric
+@attribute Result {Pass,Fail}
 
 @data
-50,150
-60,180
-70,210
-80,240
-90,270
-100,300
+1,2,50,40,Fail
+2,5,70,65,Pass
+3,1,45,30,Fail
+4,6,80,75,Pass
+5,3,60,55,Pass
+6,2,55,35,Fail
+7,7,90,85,Pass
+8,4,65,60,Pass
+9,1,40,20,Fail
+10,5,75,70,Pass
+
 
